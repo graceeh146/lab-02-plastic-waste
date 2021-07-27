@@ -78,3 +78,24 @@ Remove this text, and add your answer for Exercise 8 here.
 ```{r recreate-viz}
 # insert code here
 ```
+
+## Further information 
+
+## Excercise 3
+
+Try this :D
+
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()+
+  geom_boxplot(width=.3, fill="green") +
+  stat_summary(fun.y=median, geom="point") 
+  
+## Exercise 5 
+
+change background color/grid line color of the plot
+helpful references:http://www.sthda.com/english/wiki/ggplot2-themes-and-background-colors-the-3-elements
+
+
+
