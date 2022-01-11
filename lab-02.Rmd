@@ -12,7 +12,7 @@ library(tidyverse)
 ```
 
 ```{r load-data, message=FALSE}
-plastic_waste <- read_csv("data/plastic-waste.csv")
+plastic_waste <- read.csv("data/plastic-waste.csv")
 ```
 
 ## Exercises
