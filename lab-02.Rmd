@@ -22,7 +22,7 @@ plastic_waste <- read.csv("data/plastic-waste.csv")
 Remove this text, and add your answer for Exercise 1 here.
 
 ```{r plastic-waste-continent}
-# insert code here
+# insert code here test
 ```
 
 ### Exercise 2
@@ -35,33 +35,21 @@ Remove this text, and add your answer for Exercise 1 here.
 
 Remove this text, and add your answer for Exercise 3 here.
 
-### Exercise 4
-
-Remove this text, and add your answer for Exercise 4 here.
-
 ```{r plastic-waste-violin}
 # insert code here
 ```
 
-### Exercise 5
+### Exercise 4
 
-Remove this text, and add your answer for Exercise 5 here.
+Remove this text, and add your answer for Exercise 4 here.
 
 ```{r plastic-waste-mismanaged}
 # insert code here
 ```
 
-### Exercise 6
-
-Remove this text, and add your answer for Exercise 6 here.
-
 ```{r plastic-waste-mismanaged-continent}
 # insert code here
 ```
-
-### Exercise 7
-
-Remove this text, and add your answer for Exercise 7 here.
 
 ```{r plastic-waste-population-total}
 # insert code here
@@ -71,9 +59,9 @@ Remove this text, and add your answer for Exercise 7 here.
 # insert code here
 ```
 
-### Exercise 8
+### Exercise 5
 
-Remove this text, and add your answer for Exercise 8 here.
+Remove this text, and add your answer for Exercise 5 here.
 
 ```{r recreate-viz}
 # insert code here
