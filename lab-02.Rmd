@@ -22,7 +22,7 @@ plastic_waste <- read.csv("data/plastic-waste.csv")
 Remove this text, and add your answer for Exercise 1 here.
 
 ```{r plastic-waste-continent}
-# insert code here test
+# insert code here
 ```
 
 ### Exercise 2
