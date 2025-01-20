@@ -1,11 +1,13 @@
 ---
 title: "Lab 02 - Plastic waste"
-author: "Insert your name here"
-date: "Insert date here"
+author: "Enhui"
+date: "01/20/2025
+"
 output: github_document
 ---
 
-## Load packages and data
+## Load packages and da
+a
 
 ```{r load-packages, message=FALSE}
 library(tidyverse) 
@@ -19,16 +21,32 @@ plastic_waste <- read.csv("data/plastic-waste.csv")
 
 ### Exercise 1
 
-Remove this text, and add your answer for Exercise 1 here.
+The distribution is right-skewed, suggesting that most countries produce less plastic waste per capita, and a few countries produce more waste. Also, the disparity in plastic waste is large between countries. 
 
 ```{r plastic-waste-continent}
-# insert code here
+
+ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
+  geom_histogram(binwidth = 0.2)
+
+plastic_waste %>%
+  filter(plastic_waste_per_cap > 3.5)
+
 ```
 
 ### Exercise 2
 
+Because color and fill represent different variables, we want the color to represent different continents in the dataset. Alpha is used to represent the transparency of the data and does not indicate any variables differences in the data. 
+
 ```{r plastic-waste-density}
-# insert code here
+ggplot(
+  data = plastic_waste,
+  mapping = aes(
+    x = plastic_waste_per_cap,
+    color = continent,
+    fill = continent
+  )
+) +
+  geom_density(alpha = 0.7)
 ```
 
 ### Exercise 3
